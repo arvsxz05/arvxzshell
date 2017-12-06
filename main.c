@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-    printf("%d\n", match("^.*$", "dfivsdtt"));
+    printf("%d\n", match("^dfivsdtt$", "dfivsdtt"));
     return 0;
 }
 
